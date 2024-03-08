@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TNPSC</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            *{
+                margin:0;
+                padding:0;
+                box-sizing:border-box;
+            }
+            .one{
+                display:flex;
+                background-color:midnightblue;
+                color:white;
+                padding:5px;
+                
+            }
+            .a{
+                margin-left: 83%;
+                padding:3px;
+                border:1px solid cornflowerblue;
+                background-color:cornflowerblue;
+                margin-right: 8px;
+              
+            }
+            .b{
+                padding:3px;
+                border:1px solid crimson;
+                background-color:crimson;
+            }
+            .two{
+                display:flex;
+                border-bottom:3px solid darkturquoise ;
+                
+            }
+            .two1{
+                margin-left: 100px;
+            }
+            .c{
+                margin-left: -30px;
+            }
+            .two2{
+                margin-left: 30%;
+                text-align: right;
+                padding:10px;
+                color:darkslategrey;
+            }
+            .three{
+                
+                display:flex;
+                background-color:rgba(70, 179, 198, 0.971);
+                padding:8px;
+                margin-left: 100px;
+                margin-right: 100px;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+            .d{
+                margin-left: 5%;
+
+            }
+            .e{
+                margin-left: 30%;
+            }
+            .four{
+                
+                border:1px solid rgba(70, 70, 196, 0.827);
+                margin-left: 65px;
+                margin-right: 65px;
+                margin-top: 25px;
+                border-radius: 5px;
+            }
+            .five{
+                color:white;
+                background-color:rgba(70, 70, 196, 0.827);
+                padding:10px;
+               
+            }
+            .f{
+                display: flex;
+                
+            }
+            .six{
+                padding:15px ;
+                padding-top: 20px;
+                
+            }
+            .h{
+                padding-bottom: 15px;
+            }
+            .g{
+                width:350px;
+                height:30px;
+                border:1px solid black;
+                border-radius: 5px;
+                margin-right: 20px;
+            }
+            .i{
+                color:white;
+                background-color: forestgreen;
+                padding:5px;
+                border:1px solid black;
+            }
+            .j{
+                padding-top: 40px;
+                color:brown;
+            }
+            .seven{
+                border:1px solid rgba(70, 70, 196, 0.827) ;
+                margin-left: 15px;
+                margin-right: 15px;
+                margin-top: 25px;
+                border-radius: 5px;
+            }
+            .eight{
+                color:white;
+                background-color:rgba(70, 70, 196, 0.827);
+                padding:10px;
+            }
+            .nine{
+                padding:15px;
+            }
+            .k{
+                margin-top: 15px;
+                margin-bottom: 10px;
+            }
+            .l{
+                width:250px;
+                height:35px;
+                border:1px solid gray;
+                border-radius: 5px;
+                margin-right: 20px;
+                padding-left: 5px; 
+            }
+            .tye{
+                display:flex;
+            }
+            .m{
+                color:brown;
+                margin-top: -30px;
+            }
+            .n{
+                margin-left: 54%;
+                margin-top: -90px;
+            }
+            .o{
+                padding-bottom: 10px;
+            }
+            .p{
+                width:500px;
+                height:35px;
+                border:1px solid gray;
+                border-radius: 5px;
+                margin-right: 20px;
+                padding-left: 5px; 
+             
+            }
+            .p1{
+                width:500px;
+                height:35px;
+                border:1px solid gray;
+                border-radius: 5px;
+                margin-right: 20px;
+                padding-left: 5px; 
+             
+            }
+            .q{
+                padding-bottom:10px ;
+                padding-top: 15px;
+            }
+            .r{
+                margin-left: 115px;
+                margin-top: 15px;
+            }
+            .s{
+                padding-bottom: 10px;
+            }
+            .eleven{
+                border:1px solid rgba(70, 70, 196, 0.827);
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-top: 25px;
+                border-radius: 5px;
+            
+            }
+            .twelve{
+                color:white;
+                background-color:rgba(70, 70, 196, 0.827);
+                padding:10px;
+            }
+            .some {
+                display: flex;
+            }
+            .all{
+                margin-left: 170px;
+                color:red;
+                font-size: 13px;
+                margin-top: 20px;
+            }
+            .t{
+                padding-top: 20px;
+                margin-left: 10px;
+            }
+            .u{
+                margin:15px;
+                width:450px;
+                height:35px;
+                border-radius: 5px;
+                border:1px solid gray;
+                padding-left: 5px;
+            }
+            .v{
+                width:75px;
+                height:35px;
+                border:1px solid gray;
+                border-radius: 5px;
+                margin-top: 15px;
+                padding-left: 5px;
+            }
+           .w{
+            margin-left: 30px;
+            width:260px;
+            height:35px;
+            margin-top: -11px;
+            border-radius: 5px;
+            border:1px solid gray;
+            padding-left: 10px;
+           }
+           .w1{
+            margin-left: 30px;
+            width:260px;
+            height:35px;
+            margin-top: -11px;
+            border-radius: 5px;
+            border:1px solid gray;
+            padding-left: 10px;
+           }
+           .w3{
+            margin-left: 30px;
+            width:260px;
+            height:35px;
+            margin-top: -11px;
+            border-radius: 5px;
+            border:1px solid gray;
+            padding-left: 10px;
+
+           }
+           .x3{
+            margin: 23px;
+            padding-left: 5px;
+           }
+           .x,.x4{
+            margin: 23px;
+            padding-left: 5px;
+
+           }
+           .x2{
+            margin: 23px;
+            padding-left: 5px;
+           }
+           .y{
+            border:1px solid black;
+            background-color: cornflowerblue ;
+            color:white;
+            margin-left: 15px;
+            margin-top: -5px;
+            padding: 3px;
+            font-size: 14px;
+           }
+           .all1{
+                margin-left: 220px;
+                color:red;
+                font-size: 13px;
+                margin-top: 20px;
+            
+           }
+           .z{
+            margin:10px;
+            width:150px;
+            height:35px;
+            border-radius: 5px;
+           }
+           .xy{
+             margin-top: -45px;
+             margin-left: 50px;
+
+           }
+           .z1{
+            margin:10px;
+            width:300px;
+            height:35px;
+            border-radius: 5px;
+           }
+           .z3{
+            margin-left: 260px;
+           }
+           .z4{
+            margin:10px;
+            width:575px;
+            height:35px;
+            border-radius: 5px;
+           }
+           .end{
+                border:1px solid rgba(70, 70, 196, 0.827);
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-top: 25px;
+                border-radius: 5px;
+           }
+           .and{
+                color:white;
+                background-color:rgba(70, 70, 196, 0.827);
+                padding:10px;
+           }
+
+           .q1{
+            color:white;
+            border:1px solid black;
+            background-color:rgba(70, 70, 196, 0.827) ;
+            margin-left: 40%;
+            margin-top: 20px;
+            padding:8px;
+            margin-bottom: 20px;
+           }
+           .q2{
+            color:white;
+            border:1px solid black;
+            background-color: crimson;
+            margin-left: 40%;
+            margin-top: 20px;
+            padding:8px;
+            margin-bottom: 20px;
+           }
+           span{
+            color:red;
+           }
+           .some1{
+            display:flex;
+           }
+           .some2{
+            display:flex;
+           }
+        
+           @media only screen and (max-width:800px)
+           {
+           .some,.two{
+                display:inline-block;
+                margin-right: 50%;
+              
+            }
+            .some2{
+                display:flex;
+            }
+
+            .n,.r{
+                margin-left: -7px;
+               
+            }
+            .u{
+                width:290px;
+                margin-left: 12px;
+            }
+            .p{
+                width:300px;
+                margin-left: 3px;
+            }
+            .p1{
+                margin-left: -3px;
+                width:300px;
+            }
+            .all,.all1{
+                margin-left: -1px;
+            }
+            .v{
+                margin-left: 12px;
+                width:290px;
+                margin-top: -30px;
+            }
+            .w{
+                margin-bottom: 50px;
+                width:290px;
+            }
+            .x4{
+                margin-top: 50px;
+                margin-left: -40px;
+            }
+            .x1{
+                margin-left: -17px;
+            }
+            .y{
+               
+                width:150px;
+                margin-left: 30px;
+                padding:3px;
+               
+            }
+            .x{
+                margin-top: 50px;
+                
+               }
+            .x2,.w1{
+                margin-left: -40px;
+                width:290px;
+            }
+            .x3,.w3{
+                margin-left: 10px;
+                width:290px;
+            }
+            .x2{
+                margin-top: 45px;
+            }
+            
+            .z3{
+                margin-left: -5px;
+            }
+            .z4{
+                width:300px;
+            }
+            .q1{
+                margin-left: 80px;
+                width:140px;
+                height: 40px;
+                
+
+            }
+            .q2{
+                margin-left: 30px;
+            }
+            .one{
+                margin-left: -60%;
+            }
+            .two,.two1{
+                display:flex;
+            }
+            .two{
+                border-bottom:3px solid darkturquoise;
+                margin-right: 10px;
+            }
+            .l{
+                width:300px;
+            }
+            .z,.z1{
+                width:290px;
+            }
+            .z4{
+                width:290px;
+                margin-left: 15px;
+            }
+            
+           
+           .c{
+            width:145px;
+            height:65px;
+            margin-left: -8px;
+            margin-top: 5px;
+           }
+           .c1{
+            width:75px;
+            height: 50px;
+            margin-left: -100px;
+            margin-top: 15px;
+           }
+           .two2{
+            font-size: 13px;
+            margin-left: -15px;
+            }
+            .three{
+                display:block;
+                margin-left: 35px;
+                margin-right:30px;
+            }
+            .g{
+                width:320px;
+                height:35px;
+            }
+            .f,.nine,.tye{
+                display:inline-block;
+            }
+            .i{
+                margin-top: 50px;
+                margin-left: 3px;
+                width:150px;
+            }
+            .j{
+                margin-top: -20px;
+            }
+            .m{
+                margin-top: 25px;
+                margin-bottom: 50px;
+            }
+            .and{
+                font-size: 14px;
+            }
+
+        }   
+        </style>
+    </head>
+    <body>
+        <div class="one">
+            <p class="a">HOME</p>
+            <p class="b">TAMIL</p>
+        </div>
+        <div class="two">
+            <div class="two1">
+            <img src="https://www.tnpsc.gov.in/English/images/TNPSC-logo.jpg" width="110px" height="80px" class="c1">
+            <img src="https://www.tnpsc.gov.in/English/images/TNPSC-logo.png" width="325px" height="80px" class="c">
+            </div> 
+            <div class="two2">
+            <p><strong>FOR GENERAL QUERIES</strong></p>
+            <p><i class="fa fa-phone"></i> 1800 419 0958(Toll Free) (10:00am - 05:45pm) </p>
+            <p><i class="fa fa-envelope"></i><strong>helpdesks@tnpscexams.in</strong> </p>
+            </div>
+        </div>
+        <div class="three">
+            
+                <div class="d"><marquee direction="left">
+                    Welcome to Tamilnadu Public Service Commission
+                </marquee></div>
+            
+            
+                <div class="e"><marquee direction="left">
+                   <strong>Click here to download new PSTM format</strong>
+                </marquee>
+                </div>
+            
+        </div>
+        <div class="four">
+            <div class="five">
+               <h3>ONE TIME REGISTRATION (OTR) </h3>
+            </div>
+            <div class="six">
+                <h4 class="h">Create Login ID : <span>*</span></h4>
+              <div class="f">
+                <input type="text" class="g"> 
+                <p class="i"><strong>Check Availability</strong></p>
+              </div>
+              <div>
+                 <p class="j"> You have been allotted with the login ID:stalinsamuel123. With in 48 hours ,You must furnish all the required details and make OTR payments to complete the OTR.Failing which your details will be removed from OTR and you have to register again by furnishing all your details.</p>
+              </div>
+            </div>
+            <div class="seven">
+                
+                <div class="eight">
+                 <h3>Login Details </h3>
+                </div>
+             <div class="nine">
+                  <h4 class="k">Password:<span>*</span></h4>
+                <div class="tye">
+                 <input type="password" placeholder="Password" class="l">
+                  <div class="m">
+                <p>One Uppercase</p>
+                <p>One Lowercase</p>
+                <p>One Digit</p>
+                <p>One Special Character</p>
+                <p>Min. Length 8 & Max. Length 15</p>
+              </div>  </div>
+              
+              
+                <div class="some">
+                    <div class="n">
+                <h4 class="o">Confirm Password:<span>*</span></h4>
+                <input type="password" placeholder="Confirm Password" class="p">
+              </div>
+               
+             </div>
+             <div class="some">
+                <div>
+                    <h4 class="q">Email ID:<span>*</span></h4>
+                    <input type="text" placeholder="Email id" class="p1">
+                </div>
+                <div  class="r">
+                    <h4 class="s">Confirm Email ID:<span>*</span></h4>
+                    <input type="text" placeholder="Confirm Email ID" class="p">
+                  </div>
+             </div>
+             </div>
+                
+            </div>
+            <div class="eleven">
+                <div class="twelve">
+                    <h3>Personal Details</h3>
+                </div>
+                
+                <div class="some">
+                    <div >
+                        <div class="some1">
+                    <h4 class="t">Name of the Applicant: <span>*</span></h4> <p class="all">[Leave the initial blank if not available]</p>
+                       </div>
+                    <input type="text" placeholder="NAME OF THE APPLICANT" class="u"> <input type="text" placeholder="INITIALS" class="v">
+                    </div>
+                   <div class="x1">
+                    <h4 class="x">Mobile Number:<span> *</span></h4>
+                    <div class="some">
+                    <input type="number" placeholder="Mobile Number" class="w"> <p class="y">Verify by sending OTP</p>
+                    </div>
+                    </div>
+                </div>
+              
+                <div class="some">
+                    <div >
+                        <div class="some1">
+                       <h4 class="t"> Father's Name:<span>*</span> </h4> <p class="all1"> [Leave the initial blank if not available]</p>
+                       </div>
+                    <input type="text" placeholder="FATHER'S NAME" class="u"> <input type="text" placeholder="INITIALS" class="v">
+                    </div>
+                <div>
+
+                <h4 class="x3">Father's Birth District:<span> *</span></h4>
+                <select class="w3">
+                    <option>--Select--</option>
+                    <option>Ariyalur</option>
+                    <option>Madurai</option>
+                    <option>Dindigul</option>
+                    <option>Erode</option>
+                    <option>Kanniyakumari</option>
+                    <option>Namakkal</option>
+                    <option>Tirunelveli</option>
+                </select>
+
+                </div>
+                <div>
+                    <h4 class="x3">Father's Native District:<span> *</span></h4>
+                    <select class="w3">
+                        <option>--Select--</option>
+                        <option>Ariyalur</option>
+                        <option>Madurai</option>
+                        <option>Dindigul</option>
+                        <option>Erode</option>
+                        <option>Kanniyakumari</option>
+                        <option>Namakkal</option>
+                        <option>Tirunelveli</option>
+                    </select>
+                    </div>
+                    </div>
+                
+                <div class="some">
+                    <div >
+                        <div class="some1">
+                    <h4 class="t"> Mother's Name : <span>* </span></h4> <p class="all1"> [Leave the initial blank if not available]</p>
+                       </div>
+                    <input type="text" placeholder="MOTHER'S NAME" class="u"> <input type="text" placeholder="INITIALS" class="v">
+                    </div>
+                  
+                 
+              </div> 
+               <div>
+                <h4 class="t">Date of Birth:<span>*</span> </h4>
+                <div class="some">
+                    <div>
+                <select class="z">
+                    <option>-Date-</option>
+                    <option>01</option>
+                    <option>02</option>
+                    <option>03</option>
+                    <option>04</option>
+                </select>
+                </div>
+                <div>
+                    <select class="z">
+                        <option>-Month-</option>
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                    </select>
+                </div>
+                <div>
+                    <select class="z">
+                        <option>-Year-</option>
+                        <option>1996</option>
+                        <option>1997</option>
+                        <option>1998</option>
+                        <option>1999</option>
+                    </select>
+                </div>
+                <div class="xy">
+                    <div class="some">
+                  <div>
+
+                    <h4 class="x4">Applicant's Birth District:<span> *</span></h4>
+                    <select class="w1">
+                        <option>--Select--</option>
+                        <option>Ariyalur</option>
+                        <option>Madurai</option>
+                        <option>Dindigul</option>
+                        <option>Erode</option>
+                        <option>Kanniyakumari</option>
+                        <option>Namakkal</option>
+                        <option>Tirunelveli</option>
+                    </select>
+    
+                    </div>
+                    <div>
+                        <h4 class="x2">Applicant's Native District :<span>*</span></h4>
+                        <select class="w1">
+                            <option>--Select--</option>
+                            <option>Ariyalur</option>
+                            <option>Madurai</option>
+                            <option>Dindigul</option>
+                            <option>Erode</option>
+                            <option>Kanniyakumari</option>
+                            <option>Namakkal</option>
+                            <option>Tirunelveli</option>
+                        </select>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+            <div>
+                <h4 class="t">Gender: <span>*</span></h4>
+                <select class="z">
+                    <option>-Select Gender-</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Transgender</option>
+                    </select>
+            </div>
+            <div class="some">
+                <div>
+                <h4 class="t">Religion: <span>*</span></h4>
+                <select class="z1">
+                    <option>-Select-</option>
+                    <option>Hindu</option>
+                    <option>Christian</option>
+                    <option>Muslim</option>
+                    </select>
+                </div>
+                <div class="z3">
+                    <h4 class="t">Nationality: <span>*</span></h4>
+                    <select class="z4">
+                        <option>-Select-</option>
+                        <option>Citizen of India</option>
+                        <option>Others</option>
+                       
+                        </select>
+                    </div>
+                </div>
+            </div>
+                
+                <div></div>
+               </div> 
+               <div class="end" >
+                <div class="and">
+                    <h3>Communal Reservation Category Details</h3>
+                   
+                    </div>
+                 <p><br></p>
+                </div>
+               <div class="some2">
+                <h4 class="q1">Save and Proceed</h4>
+                <h4 class="q2">Exit</h4>
+               </div>
+           </div>
+           
+        </div>   
+       
+        </div>
+        <p><br></p>
+
+    </body>
+</html>
